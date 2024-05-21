@@ -122,7 +122,7 @@ export default function Dashboard(props) {
 						transitionDuration='.2s, .2s, .35s'
 						transitionProperty='top, bottom, width'
 						transitionTimingFunction='linear, linear, ease'>
-						<Portal>
+						{/* <Portal>
 							<Box>
 								<Navbar
 									onOpen={onOpen}
@@ -134,7 +134,7 @@ export default function Dashboard(props) {
 									{...rest}
 								/>
 							</Box>
-						</Portal>
+						</Portal> */}
 
 						{getRoute() ? (
 							<Box mx='auto' p={{ base: '20px', md: '30px' }} pe='20px' minH='100vh' pt='50px'>
